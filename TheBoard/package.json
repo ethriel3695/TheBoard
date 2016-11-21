@@ -1,0 +1,33 @@
+{
+  "name": "the-board",
+  "version": "0.1.0",
+  "description": "A message board based on sticky notes.",
+  "main": "server.js",
+  "author": {
+    "name": "Reuben Ellis",
+    "email": "ethriel3695@gmail.com"
+  },
+  "dependencies": {
+    "body-parser": "file:node_modules\\body-parser",
+    "bower": "^1.8.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "grunt": "file:node_modules\\grunt",
+    "grunt-cli": "file:node_modules\\grunt-cli",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.11",
+    "node-sqlserver-unofficial": "file:node_modules\\node-sqlserver-unofficial",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^1.6.0",
+    "underscore": "^1.8.3",
+    "vash": "^0.12.2"
+  },
+  "devDependencies": {
+    "grunt-nodemon": "^0.4.2"
+  }
+}
